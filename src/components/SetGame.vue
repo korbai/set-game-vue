@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>Set Game</h1>
     <h3>Vue Edition</h3>
-    <Card color="red" width="120" height="180"/>
+    <Card color="red" :width="120" :height="180"/>
   </div>
 </template>
 
