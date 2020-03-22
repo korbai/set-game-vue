@@ -2,12 +2,18 @@
   <div class="hello">
     <h1>Set Game</h1>
     <h3>Vue Edition</h3>
+    <Card color="red"/>
   </div>
 </template>
 
 <script>
+import Card from "./Card";
+
 export default {
   name: "SetGame",
+  components: {
+    Card
+  },
   props: {}
 };
 </script>
