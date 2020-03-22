@@ -1,8 +1,14 @@
 <template>
   <div
     class="card card-type-${type}"
-    :style="{ backgroundColor :color }"
-    style="padding: 2px; margin: 8px; height: ${height}; width: ${width}; display: inline-block;"
+    :style="{ 
+      backgroundColor :color,
+      height: height + 'px',
+      width: width + 'px',
+      padding: '2px',
+      margin: '8px',
+      display: 'inline-block'
+    }"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
